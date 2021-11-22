@@ -16,7 +16,8 @@
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name wl-gantt --dest lib ./src/pages/index.js",
     "lint": "vue-cli-service lint",
-    "proxy": "lcp --proxyUrl https://www.travel.taipei"
+    "proxy": "lcp --proxyUrl https://www.travel.taipei",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
@@ -40,7 +41,8 @@
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "vue-cli-plugin-element": "^1.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
