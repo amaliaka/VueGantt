@@ -6,7 +6,12 @@ Make Vue Gantt using [WL-Gantt](https://github.com/hql7/wl-gantt)
 Change node version to 13 to match the Gantt package SASS version
 
 ```bash
-nvm install 13
+nvm install 13.14.0
+```
+
+Use node 13
+```bash
+nvm use 13.14.0
 ```
 
 Use the package manager [npm](https://www.npmjs.com/) to install the Gantt chart.
